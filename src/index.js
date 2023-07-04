@@ -1,3 +1,3 @@
-export default function () {
-  return 'hello world';
-}
+import sendDiscordWebhook from './sendDiscordWebhook';
+
+export { sendDiscordWebhook };
