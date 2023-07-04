@@ -11,7 +11,7 @@ npm install webhook-analytics
 To use the package, you need to import the `sendDiscordWebhook` function from the package:
 
 ```javascript
-import sendDiscordWebhook from 'webhook-analytics';
+import { sendDiscordWebhook } from 'webhook-analytics';
 ````
 
 The `sendDiscordWebhook` function accepts two parameters: `webhookURL` and `options`. The `webhookURL` is the URL of your Discord webhook where the user information will be sent. The `options` parameter is an optional object that allows you to customize the user information to include.

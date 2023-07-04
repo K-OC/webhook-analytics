@@ -1,6 +1,6 @@
 {
   "name": "webhook-analytics",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "jsnext:source": "./src/index.js",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -37,7 +37,7 @@
   "devDependencies": {
     "@modern-js/module-tools": "2.25.1",
     "@modern-js/eslint-config": "2.25.1",
-    "@modern-js/tsconfig":"2.25.1",
+    "@modern-js/tsconfig": "2.25.1",
     "@modern-js-app/eslint-config": "2.25.1",
     "rimraf": "~3.0.2",
     "lint-staged": "~13.1.0",
