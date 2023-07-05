@@ -36,7 +36,7 @@ By default, all the properties in the `options` object are set to `true`, meanin
 
 ### Submit Contact Form
 
-The `submitContactForm` function is used to submit a contact form to a Discord webhook. It accepts two parameters: `webhookToken` and `fields`. The `webhookToken` is the URL of your Discord webhook where the form submission will be sent. The `fields` parameter is an optional object that contains the form field values.
+The `submitContactForm` function is used to submit a contact form to a Discord webhook. It accepts two parameters: `webhookToken` and `fields`. The `webhookToken` is the URL of your Discord webhook where the form submission will be sent. The `fields` parameter is an object that contains the form field values.
 
 Here's an example of how to use the `submitContactForm` function:
 
