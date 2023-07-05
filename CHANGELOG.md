@@ -1,5 +1,11 @@
 # webhook-analytics
 
+## 0.3.0
+
+### Minor Changes
+
+- Restructured directories, added submitContactForm featureand updated readme to reflect the new functionality.
+
 ## 0.2.0
 
 ### Minor Changes

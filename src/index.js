@@ -1,3 +1,4 @@
-import sendDiscordWebhook from './sendDiscordWebhook';
+import sendUserInfo from './sendUserInfo';
+import submitContactForm from './contactForm';
 
-export { sendDiscordWebhook };
+export { sendUserInfo, submitContactForm };
