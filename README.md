@@ -8,10 +8,12 @@ npm install webhook-analytics
 
 ## Usage
 
-To use the package, you need to import the `sendUserInfo` and `submitContactForm` functions from the package:
-
 ```javascript
-import { sendUserInfo, submitContactForm } from 'webhook-analytics';
+import {
+  sendWeatherToDiscord,
+  sendUserInfo,
+  submitContactForm,
+} from 'webhook-analytics';
 ```
 
 ### Send User Information
@@ -51,6 +53,24 @@ submitContactForm('https://discord.com/api/webhooks/123456789', {
 
 You can pass any form field values as properties in the `fields` object. The properties should match the field names defined in your contact form.
 
+### Send Weather to Discord
+
+The `sendWeatherToDiscord` function is used to fetch weather information and send it to a Discord webhook. It accepts two parameters: `webhookURL` and `location`. The `webhookURL` is the URL of your Discord webhook where the weather information will be sent. The `location` parameter is optional and allows you to specify the location for which you want to fetch the weather.
+
+Here's an example of how to use the `sendWeatherToDiscord` function:
+
+```javascript
+sendWeatherToDiscord('https://discord.com/api/webhooks/123456789', 'New York');
+```
+
+If the `location` parameter is not provided, the function will fetch the weather information for the default location.
+
+The function will make a request to the weather API, retrieve the weather data, format it, and send it to the specified Discord webhook.
+
+```
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+```
