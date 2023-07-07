@@ -1,5 +1,11 @@
 # webhook-analytics
 
+## 0.4.1
+
+### Patch Changes
+
+- remove unneeded dep
+
 ## 0.4.0
 
 ### Minor Changes

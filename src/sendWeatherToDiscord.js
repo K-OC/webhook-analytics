@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-fetch';
 import sendDiscordWebhook from './sendDiscordWebhook';
 
 const sendWeatherToDiscord = async (webhookURL, location = '') => {

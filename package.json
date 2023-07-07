@@ -1,6 +1,6 @@
 {
   "name": "webhook-analytics",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "jsnext:source": "./src/index.js",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
@@ -46,8 +46,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
-    "isomorphic-fetch": "^3.0.0"
   }
 }
