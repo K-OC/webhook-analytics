@@ -1,5 +1,11 @@
 # webhook-analytics
 
+## 0.4.2
+
+### Patch Changes
+
+- updated readme to better reflect current state of the library
+
 ## 0.4.1
 
 ### Patch Changes
